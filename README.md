@@ -22,15 +22,6 @@ projeto/
 ├── main.cpp
 ├── glad/
 ├── GLFW/
-├── stb_image.h
-└── assets/
-    ├── sky.png          # Camada mais distante (céu)
-    ├── clouds.png       # Nuvens
-    ├── mountains.png    # Montanhas
-    ├── trees_far.png    # Árvores distantes
-    ├── trees_near.png   # Árvores próximas
-    ├── ground.png       # Chão (camada mais próxima)
-    └── player.png       # Sprite do personagem (PNG com transparência)
     
 Fatores de Parallax
 Cada camada possui um fator de deslocamento proporcional à sua profundidade:
