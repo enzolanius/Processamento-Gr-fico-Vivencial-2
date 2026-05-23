@@ -16,6 +16,7 @@ Transparência: suporte a PNG com canal alpha para o personagem e camadas
 
 Controles
 TeclaAção← / AMover personagem para a esquerda→ / DMover personagem para a direita↑ / WMover personagem para cima↓ / SMover personagem para baixoESCFechar a aplicação
+
 Estrutura de Arquivos
 projeto/
 ├── main.cpp
@@ -30,10 +31,12 @@ projeto/
     ├── trees_near.png   # Árvores próximas
     ├── ground.png       # Chão (camada mais próxima)
     └── player.png       # Sprite do personagem (PNG com transparência)
+    
 Fatores de Parallax
 Cada camada possui um fator de deslocamento proporcional à sua profundidade:
 Camada Fator X Descrição 
 Céu 0.05 Quase estático; Nuvens 0.10 Movimento muito lento; Montanhas 0.20 Movimento lento; Árvores distantes 0.40 Movimento médio; Árvores próximas 0.70 Movimento rápido; Chão 1.00 Acompanha o personagem.
+
 Dependências:
 
 GLAD
